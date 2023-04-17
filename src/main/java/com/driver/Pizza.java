@@ -6,11 +6,11 @@ public class Pizza {
     private Boolean isVeg;
     private String bill;
 
-    private Boolean isCheeseAdded;
+    private Boolean isCheeseAdded= false;
 
-    private Boolean isToppingsAdded;
+    private Boolean isToppingsAdded=false;
 
-   private Boolean isTakeaway;
+   private Boolean isTakeaway=false;
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         if(isVeg==true){
@@ -21,9 +21,7 @@ public class Pizza {
 
         }
 
-        this.isTakeaway=false;
-        this.isCheeseAdded=false;
-        this.isToppingsAdded=false;
+
         // your code goes here
     }
 
